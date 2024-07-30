@@ -19,7 +19,7 @@ public class Desafio01Application implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Order order = new Order(202,150.00,10.00);
+		Order order = new Order(1309,200.00,0.0);
 		System.out.println("Order code : " + order.getCode());
 		System.out.printf("Total value : %.2f%n ",orderService.total(order));
 	}
